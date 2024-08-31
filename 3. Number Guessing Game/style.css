@@ -1,0 +1,91 @@
+body {
+    /* background-color: #A0E1E1; */
+    background: linear-gradient(45deg, #8e1111, #2f5c9a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stacks the container and footer vertically */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px; /* Space between container and footer */
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#checkButton {
+    background-color: #293af3;
+}
+
+#restartButton {
+    background-color: #ff6666;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size:x-large;
+    /* background-color: #4dbfe8; */
+    background: linear-gradient(45deg, #a13939, #426aa1);
+    width: 100%;
+    color: #000000;
+    position: fixed; /* Sticks to the bottom */
+    bottom: 0;
+    animation: fadeIn 2.5s ease-in-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
