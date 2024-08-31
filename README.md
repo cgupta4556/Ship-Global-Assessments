@@ -1,2 +1,2 @@
 # Ship-Global-Assessments
-Three out Five assessment asked by the company
+Three out Five assessments asked by the company
